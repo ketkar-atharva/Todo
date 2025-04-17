@@ -101,3 +101,17 @@ ul li span{
   width: 40px;
   font-size: 22px;
 }
+.container2{
+   margin-top: 20px;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+
+ }
+ .prep{
+   height: 200px;
+   width: 500px;
+   background-color: #E9ECEF;
+   border: none;
+   border-radius: 10px;
+ }
