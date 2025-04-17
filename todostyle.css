@@ -92,3 +92,11 @@
  ul li.checked::before{
     background-image: url(checked.jpg);
  }
+ ul li span{
+   position: absolute;
+   right: 0;
+   top: 5px;
+   height: 40px;
+   width: 40px;
+   font-size: 22px;
+ }
