@@ -12,31 +12,50 @@
    <div class="nav-panel"><h2 >Task Manager</h2></div>
  </header>
   <div class="container1">
-   <div class="todo" id="todo">
-     <h3 style="background-color: transparent;" id="head">To do list <i class="fa-solid fa-pen"></i></h2>
+      <div class="todo" id="todo">
+          <h3 style="background-color: transparent;" id="head">To do list <i class="fa-solid fa-pen"></i></h3>
+         <div class="addtask">
+            <input type="text" id="input-box" placeholder="add task"><button onclick="additem()">Add</button>
+          </div>
+        <ul id="listcontainer">
+          <!--<li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li>!-->
+        </ul>
+      </div>
+     <div class="container2">
+       <div class="prep" id="prep">
+         <h3 style="background-color: transparent;" id="head">Prep for  exam <i class="fa-solid fa-pen"></i></h3>
        <div class="addtask">
-         <input type="text" id="input-box" placeholder="add task"><button onclick="additem()">Add</button>
+         <input type="text" id="input-box1" placeholder="add task"><button onclick="additem1()">Add</button>
        </div>
-      <ul id="listcontainer">
+        <ul id="listcontainer1">
        <!--<li class="checked">Task 1</li>
        <li>Task 2</li>
        <li>Task 3</li>!-->
-      </ul>
-   </div>
-   <div class="container2">
-    <div class="prep" id="prep">
-      <h3 style="background-color: transparent;" id="head">Prep for  exam <i class="fa-solid fa-pen"></i></h3>
-      <div class="addtask">
-        <input type="text" id="input-box1" placeholder="add task"><button onclick="additem1()">Add</button>
+        </ul>
+     </div>
+     </div>
+    <div class="container3">
+     <div class="format" id="format">
+       <div class="addtitle" id="addtitle">
+       <input type="text" id="input-boxt" placeholder="add title"><button onclick="additemt()">Add</button>
+       </div>
+       <div class="ttitle"><h3 style="background-color: transparent;" id="head3"> </h3></div>
+       <div class="addtask1" id="addtask">
+         <input type="text" id="input-box2" placeholder="add task"><button onclick="additem2()">Add</button>
+       </div>
+       <ul id="listcontainer2">
+         <!--<li class="checked">Task 1</li>
+         <li>Task 2</li>
+         <li>Task 3</li>!-->
+        </ul>
+       </div>
       </div>
-     <ul id="listcontainer1">
-      <!--<li class="checked">Task 1</li>
-      <li>Task 2</li>
-      <li>Task 3</li>!-->
-     </ul>
     </div>
 
    </div>
+
    
   <script src="todo.js"></script> 
 </body>
