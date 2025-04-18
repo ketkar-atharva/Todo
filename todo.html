@@ -11,10 +11,14 @@
  <header>
    <div class="nav-panel"><h2 >Task Manager</h2></div>
  </header>
-  <div class="container1">
+ <button onclick="addevent()" id="b1">Add event</button>
+  <div class="container1" id="container1">
       <div class="todo" id="todo">
-          <h3 style="background-color: transparent;" id="head">To do list <i class="fa-solid fa-pen"></i></h3>
-         <div class="addtask">
+          <div class="addtitle1" id="addtitle1">
+           <input type="text" id="input-boxt1" placeholder="add title"><button onclick="additemt1()">Add</button>
+          </div>
+          <h3 style="background-color: transparent;" id="head1"></h3>
+         <div class="addtask0" id="addtask0">
             <input type="text" id="input-box" placeholder="add task"><button onclick="additem()">Add</button>
           </div>
         <ul id="listcontainer">
@@ -23,10 +27,13 @@
           <li>Task 3</li>!-->
         </ul>
       </div>
-     <div class="container2">
+     <div class="container2" id="container2">
        <div class="prep" id="prep">
-         <h3 style="background-color: transparent;" id="head">Prep for  exam <i class="fa-solid fa-pen"></i></h3>
-       <div class="addtask">
+         <div class="addtitle2" id="addtitle2">
+           <input type="text" id="input-boxt2" placeholder="add title"><button onclick="additemt2()">Add</button>
+          </div>
+         <h3 style="background-color: transparent;" id="head2"></h3>
+       <div class="addtask2" id="addtask2">
          <input type="text" id="input-box1" placeholder="add task"><button onclick="additem1()">Add</button>
        </div>
         <ul id="listcontainer1">
@@ -36,7 +43,7 @@
         </ul>
      </div>
      </div>
-    <div class="container3">
+    <div class="container3" id="container3">
      <div class="format" id="format">
        <div class="addtitle" id="addtitle">
        <input type="text" id="input-boxt" placeholder="add title"><button onclick="additemt()">Add</button>
