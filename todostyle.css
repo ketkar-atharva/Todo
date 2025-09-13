@@ -280,3 +280,80 @@ ul li span{
   right: 0%;
 
 }
+
+/* ===== Mobile First (Small screens: phones) ===== */
+@media (max-width: 600px) {
+  .nav-panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container1, .container2, .container3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .todo, .prep, .format {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .addtask, .addtask0, .addtask1, .addtask2,
+  .addtitle, .addtitle1, .addtitle2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #b1, button {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  ul li {
+    font-size: 14px;
+    padding: 10px 6px 10px 40px;
+  }
+}
+
+/* ===== Tablets (Medium screens) ===== */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container1, .container2, .container3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .todo, .prep, .format {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .addtask, .addtask0, .addtask1, .addtask2,
+  .addtitle, .addtitle1, .addtitle2 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ===== Large Screens (Desktops, Wide monitors) ===== */
+@media (min-width: 1025px) {
+  .container1, .container2, .container3 {
+    justify-content: space-evenly;
+  }
+
+  .todo, .prep, .format {
+    width: 500px;
+  }
+
+  .addtask, .addtask0, .addtask1, .addtask2,
+  .addtitle, .addtitle1, .addtitle2 {
+    width: 400px;
+  }
+}
